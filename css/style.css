@@ -1,0 +1,35 @@
+* { 
+    font-family: 'Overpass Mono', monospace;
+}
+
+body {
+    background-image: url(../media/bg.jpg);
+    background-attachment: scroll;
+}
+
+#heading {
+    text-align: center;
+    margin: 30vh 0vh;
+}
+
+#heading h1 {
+    font-weight: 700;
+}
+
+#heading h2 {
+    font-weight: 300;
+}
+
+.navbar {
+    background-color: #fa6f4dbd;
+    padding: 0.3vh 0vh;
+    margin: 0;
+    text-align: right;
+}
+
+.navbar a {
+    color: black;
+    font-weight: 700;
+    padding: 1.25vw;
+    text-decoration: none;
+}
