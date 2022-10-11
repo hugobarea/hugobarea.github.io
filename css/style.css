@@ -5,6 +5,7 @@
 body {
     background-image: url(../media/bg.jpg);
     background-attachment: scroll;
+    background-position: 0% 20%;
 }
 
 #heading {
