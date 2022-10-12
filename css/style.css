@@ -5,6 +5,7 @@
 body {
     background-image: url(../media/bg.jpg);
     background-attachment: scroll;
+    background-position: 0% 20%;
 }
 
 #heading {
@@ -32,4 +33,28 @@ body {
     font-weight: 700;
     padding: 1.25vw;
     text-decoration: none;
+}
+
+#ssubheadings h1{
+    text-align: center;
+    margin: 15vh 0vh;
+}
+
+#projects-container {
+    margin: 20vh 0vh;
+    display: flex;
+}
+
+.projects {
+    background-color: green;
+    border-radius: 20vh;
+    width: 20vh;
+    height: 20vh;
+    margin: 0vw 5vw;
+    color: green;
+    border: 0.2vw solid #fa6f4dbd;
+}
+
+#leftmost {
+    margin-left: 25vw;
 }
